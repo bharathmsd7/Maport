@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeActivity"
+    android:background="@drawable/fragment_luggage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/track"
+            android:fontFamily="@font/ralewaybold"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/btn_pay"
+            android:text="Track"
+            android:layout_marginLeft="125dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="410dp"/>
+
+        <Button
+            android:textSize="24sp"
+            android:fontFamily="@font/arciform"
+            android:textColor="#fff"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btn_feedback"
+            android:id="@+id/btn_gotofeedback"
+            android:layout_marginTop="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
